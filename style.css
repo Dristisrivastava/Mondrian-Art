@@ -1,0 +1,49 @@
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.container{
+    width: 748px;
+    height: 746px;
+    background-color:black;
+    display:grid;
+    gap:9px;
+    grid-template-rows: 414px 130px 155px 20px;
+    grid-template-columns: 320px 198px 153px 50px;
+}
+.red{
+    background-color: red;
+}
+.fgrey{
+    background-color: rgb(198, 202, 206);
+    grid-column: span 3;
+}
+.secgrey{
+    background-color: rgb(198, 202, 206);
+    grid-area:2/1/4/2;
+}
+.thgrey{
+    background-color: rgb(198, 202, 206);
+    grid-area:2/2/4/4;
+}
+.blue{
+    background-color: blue;
+    border-bottom: 10px solid black;
+}
+.forgrey{
+    background-color: rgb(198, 202, 206);
+    grid-row: span 2;
+}
+.fivgrey{
+    background-color: rgb(198, 202, 206);
+}
+.yellow{
+    background-color: yellow;
+}
+.black{
+    background-color: black;
+}
